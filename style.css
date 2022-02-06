@@ -30,7 +30,7 @@ nav {
 .home {
   width: 100%;
   background-image: url("assets/bg/homebg.jpg");
-  padding: 30px;
+  padding: 3vh;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -41,7 +41,7 @@ nav {
   margin-top: 8vh;
   height: 70vh;
   border-radius: 3vh;
-  margin-left: 20vh;
+  margin-left: 10vh;
   z-index: 100;
   box-shadow: 10px 15px 10px 10px
     rgba(0, 0, 0, 0.74);
@@ -106,6 +106,42 @@ nav {
   background-color: black;
   font-size: 1.5vh;
   color: white;
+}
+.products {
+  width: 100%;
+  padding: 2vh;
+}
+
+.products .majorheading {
+  position: relative;
+  font-size: 3vh;
+  font-weight: bolder;
+  left: 35vh;
+  top: 15vh;
+}
+
+.products .majorsubheading {
+  font-size: 2vh;
+  position: relative;
+  left: 38vh;
+  top: 15vh;
+}
+.products .majorbutton {
+  position: relative;
+  color: #3f6ad4;
+  left: -70vh;
+  margin-right: 3vh;
+  font-size: 2vh;
+}
+.products .major {
+  position: relative;
+  width: 100vh;
+}
+
+.products .right {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .explore {
