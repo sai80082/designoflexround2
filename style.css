@@ -29,7 +29,7 @@ nav {
 }
 .home {
   width: 100%;
-  background-image: url("/assets/bg/homebg.jpg");
+  background-image: url("assets/bg/homebg.jpg");
   padding: 30px;
   background-repeat: no-repeat;
   background-size: cover;
