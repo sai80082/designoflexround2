@@ -1,0 +1,156 @@
+body {
+  margin: 0%;
+  padding: 0;
+  overflow-x: hidden;
+}
+nav {
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    #2b2b2b 26.74%,
+    #183cb7 100%
+  );
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 2vh;
+  padding: 1.5vh;
+}
+
+.navbuttons {
+  position: relative;
+  left: 40%;
+  display: flex;
+}
+
+.navbuttons a {
+  margin-right: 30%;
+}
+.home {
+  width: 100%;
+  background-image: url("/assets/bg/homebg.jpg");
+  padding: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+.home video {
+  margin-top: 8vh;
+  height: 70vh;
+  border-radius: 3vh;
+  margin-left: 20vh;
+  box-shadow: 10px 15px 10px 10px
+    rgba(0, 0, 0, 0.74);
+}
+.home .card1 {
+  margin-top: 2vh;
+  position: relative;
+  color: white;
+  left: -70vh;
+}
+.card1 {
+  background-color: black;
+  border-radius: 3vh;
+  padding: 5vh;
+  width: 35vh;
+  box-shadow: 8px 10px 10px 10px
+    rgba(0, 0, 0, 0.74);
+}
+
+.home .subheading {
+  font-size: 2vh;
+  line-height: 2.5vh;
+}
+
+.home .card2 {
+  position: relative;
+  color: rgb(0, 0, 0);
+  left: -20vh;
+}
+.card2 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 3vh;
+  padding: 5vh;
+  margin-bottom: 5vh;
+  width: 35vh;
+  box-shadow: 8px 10px 10px 10px
+    rgba(0, 0, 0, 0.74);
+}
+
+.info p {
+  width: 80%;
+  font-size: 2vh;
+  line-height: 2.5vh;
+}
+.home .info .heading {
+  font-size: 5vh;
+  font-weight: bold;
+}
+
+.home .card1 button {
+  border-radius: 20px;
+  padding: 1vh;
+  border-style: none;
+  font-weight: 700;
+  font-size: 1.5vh;
+}
+.home .card2 button {
+  border-radius: 20px;
+  padding: 1vh;
+  border-style: none;
+  font-weight: 700;
+  background-color: black;
+  font-size: 1.5vh;
+  color: white;
+}
+
+.explore {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.exploreheading {
+  padding-left: 10vh;
+  padding-top: 20vh;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8vh;
+}
+.explorep {
+  padding-left: 12vh;
+  width: 50vh;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3vh;
+  line-height: 5vh;
+  z-index: 2;
+}
+
+.exploreimage {
+  position: relative;
+  height: auto;
+  padding-top: 5vh;
+  width: 25%;
+  left: 40vh;
+}
+
+.explore::before {
+  position: absolute;
+  content: "";
+  background: linear-gradient(
+    180deg,
+    #40a4ff 0%,
+    #e12179 100%
+  );
+  width: 200vh;
+  height: 100vh;
+  z-index: -1;
+  left: -100vh;
+  transform: rotate(-30deg);
+}
