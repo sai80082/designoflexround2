@@ -109,7 +109,13 @@ nav {
 }
 .products {
   width: 100%;
-  padding: 2vh;
+  height: 100vh;
+}
+
+.products div {
+  position: relative;
+  top: -100vh;
+  color: white;
 }
 
 .products .majorheading {
@@ -139,16 +145,69 @@ nav {
 }
 
 .products .right {
-    display: flex;
-    flex-direction: column;
-
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 120vh;
+  top: -60vh;
 }
 
+.products .right1 .button {
+  position: relative;
+  top: 8vh;
+  left: -20vh;
+  color: #3f6ad4;
+  font-size: 2vh;
+  margin-right: 3vh;
+}
+.products .right2 .button {
+  position: relative;
+  top: 12vh;
+  left: -20vh;
+  color: #3f6ad4;
+  font-size: 2vh;
+  margin-right: 3vh;
+}
+.products .right .right1 img {
+  width: 25vh;
+}
+.products .right .right2 img {
+  position: relative;
+  width: 25vh;
+  top: 10vh;
+}
+
+.products .right1 .heading {
+  position: relative;
+  top: -5vh;
+  z-index: 55;
+  font-size: 2vh;
+  left: 5vh;
+}
+.products .right2 .heading {
+  position: relative;
+  top: 11vh;
+  z-index: 55;
+  font-size: 2vh;
+  left: 5vh;
+}
 .explore {
   overflow: hidden;
   position: relative;
   width: 100%;
+}
+.explore .part1 {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  top: 10vh;
   display: flex;
+}
+
+.explore video {
+  position: relative;
+  top: 10vh;
+  width: 100%;
 }
 .exploreheading {
   padding-left: 10vh;
@@ -185,9 +244,37 @@ nav {
     #40a4ff 0%,
     #e12179 100%
   );
-  width: 200vh;
+  width: 300vh;
   height: 100vh;
   z-index: -1;
-  left: -100vh;
-  transform: rotate(-30deg);
+  left: -20vh;
+}
+
+.explore .img {
+  position: relative;
+  top: -80vh;
+  color: white;
+  font-size: 8vh;
+  left: 70vh;
+}
+
+.exploreinfo{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -70vh;
+  text-align: center;
+  
+}
+
+.explore
+.exploreinfo .heading{
+  font-size: 4vh;
+}
+
+.exploreinfo p{
+  position: relative;
+  font-size: 2vh;
+  width: 70%;
+  right: 10vh;
 }
