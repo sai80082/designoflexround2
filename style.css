@@ -255,14 +255,13 @@ nav {
   top: -80vh;
   color: white;
   font-size: 8vh;
-  left: 65vh;
 }
 
 .exploreinfo {
   display: flex;
   justify-content: space-between;
   position: relative;
-  top: -60vh;
+  top: -90vh;
   text-align: center;
 }
 
@@ -305,10 +304,11 @@ nav {
 
 footer {
   position: relative;
-  margin-top: -25vh;
+  margin-top: -51vh;
   background-color: black;
   padding: 3vh;
   padding-bottom: 25vh;
+  
 }
 
 .newsletter {
@@ -335,6 +335,7 @@ footer {
   border-radius: 1vh;
   padding: 1vh;
   border-style: solid;
+  font-size: 1.5vh;
 }
 .newsletter form button {
   position: relative;
@@ -365,5 +366,44 @@ footer .info div{
 }
 .contact{
   display: flex;
+  position: relative;
   flex-direction: column;
+  color: rgb(151, 151, 151);;
+  left: 90vh;
+  top: 12vh;
+}
+
+.contact .heading{
+position: relative;
+top: -2vh;
+color: white;
+}
+
+.socials{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  top: 20vh;
+  margin-left: 60vh;
+  margin-right: 60vh;
+  
+}
+
+.visitors{
+  color: white;
+  position: relative;
+  font-size: 2vh;
+  display: flex;
+  align-items: center;
+  top: 20vh;
+  left: 150vh;
+}
+
+.count{
+  position: relative;
+  background-color: #8b8b8b;
+  padding: 1vh;
+  border-radius: 1vh;
+  margin-left: 2vh;
 }
