@@ -346,7 +346,7 @@ footer {
   margin-left: 2vh;
 }
 
-.info{
+footer .info{
   display: flex;
   flex-direction: column;
   color: rgb(151, 151, 151);
@@ -354,7 +354,7 @@ footer {
   left: 30vh;
   top: 10vh;
 }
-.info div{
+footer .info div{
   margin-bottom: 3vh;
   color: white;
 }
