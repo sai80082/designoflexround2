@@ -255,26 +255,114 @@ nav {
   top: -80vh;
   color: white;
   font-size: 8vh;
-  left: 70vh;
+  left: 65vh;
 }
 
-.exploreinfo{
+.exploreinfo {
   display: flex;
   justify-content: space-between;
   position: relative;
-  top: -70vh;
+  top: -60vh;
   text-align: center;
-  
 }
 
-.explore
-.exploreinfo .heading{
+.explore .exploreinfo .heading {
   font-size: 4vh;
+  font-weight: bolder;
 }
-
-.exploreinfo p{
+.edu,
+.gaming,
+.cinema {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.exploreinfo p {
   position: relative;
   font-size: 2vh;
   width: 70%;
-  right: 10vh;
+  right: -10vh;
+  margin-top: 10vh;
+}
+
+.gaming .heading {
+  color: rgb(200, 231, 24);
+  z-index: 20;
+  background: transparent;
+}
+
+.explore button {
+  position: relative;
+  width: 20vh;
+  font-size: 3vh;
+  border-radius: 2vh;
+  background-color: #40a4ff;
+  color: white;
+  border-style: none;
+  left: 18vh;
+  top: 20vh;
+}
+
+footer {
+  position: relative;
+  margin-top: -25vh;
+  background-color: black;
+  padding: 3vh;
+  padding-bottom: 25vh;
+}
+
+.newsletter {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40vh;
+  margin-right: 30vh;
+  margin-top: 10vh;
+}
+
+.newsletter .heading {
+  font-size: 3vh;
+  color: white;
+}
+.newsletter .subheading {
+  font-size: 2vh;
+  color: rgb(160, 160, 160);
+}
+
+.newsletter form input {
+  color: white;
+  background-color: black;
+  border-radius: 1vh;
+  padding: 1vh;
+  border-style: solid;
+}
+.newsletter form button {
+  position: relative;
+  background-color: #3f6ad4;
+  border-radius: 2vh;
+  border-style: none;
+  color: white;
+  padding: 1.5vh;
+  margin-left: 2vh;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  color: rgb(151, 151, 151);
+  position: relative;
+  left: 30vh;
+  top: 10vh;
+}
+.info div{
+  margin-bottom: 3vh;
+  color: white;
+}
+
+.container{
+  display: flex;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
 }
